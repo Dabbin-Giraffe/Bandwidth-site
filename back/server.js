@@ -25,7 +25,10 @@ app.post('/upload', upload.single('file'),   async (req, res) => {
   if (!req.file) {
     return res.status(400).send('No file uploaded.');
   }
-  await delay(4000); 
+  const minDelay = 2000; // Minimum delay in milliseconds (1 second)
+  const maxDelay = 8000;
+  const randomDelay = Math.floor(Math.random() * (maxDelay - minDelay + 1)) + minDelay;
+  await delay(randomDelay); 
   console.log(`Received file: ${req.file.originalname}, size: ${req.file.size} bytes`);
   res.send('File uploaded successfully.');
 });
@@ -66,7 +69,10 @@ app.get('/download',async (req, res) => {
     'Content-Type': 'application/octet-stream',
     'Content-Length': blobSize
   })
-  await delay(4000);
+  const minDelay = 2000; // Minimum delay in milliseconds (1 second)
+  const maxDelay = 8000;
+  const randomDelay = Math.floor(Math.random() * (maxDelay - minDelay + 1)) + minDelay;
+  await delay(randomDelay); 
   res.end(blob);
 });
 
