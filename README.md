@@ -1,6 +1,12 @@
+# Testing Page
+
+![simplescreenrecorder-2024-05-23_03 26 09-ezgif com-resize](https://github.com/Dabbin-Giraffe/Bandwidth-site/assets/97212266/e3fbd0b8-4f91-41bc-b1d0-ca7464f6e336)
+
+***
+
 # History page
 
-![simplescreenrecorder-2024-05-23_03 27 12-ezgif com-resize(1)](https://github.com/Dabbin-Giraffe/Bandwidth-site/assets/97212266/1a8472ff-59ff-4dfc-bbee-63a8e77f69ad)
+![simplescreenrecorder-2024-05-23_03 27 12-ezgif com-resize(2)](https://github.com/Dabbin-Giraffe/Bandwidth-site/assets/97212266/a6f627e6-ee8f-486a-b9d1-c3811002bb43)
 
 ***
 
