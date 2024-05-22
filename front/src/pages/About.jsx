@@ -41,6 +41,8 @@ export default function About() {
                     }}
                 >
                     {/* <Typography variant="h1" align="center" sx={{ mb: 4 }}>About Us</Typography> */}
+                    
+
                     <Paper sx={{ p: 3, mb: 4, padding: 7 }}>
                         <Typography fontSize={25} variant="body1" align='center'>
                             This website, "SpeedCheck," was created by Team 29 as a project for our Software Engineering course. Our project utilizes packet transfer to calculate the client's internet speed and stores the results in a local database to maintain a history of tests conducted. We used ReactJS for the front-end framework and Material UI as our CSS framework. For the back-end, we chose NodeJS with the ExpressJS framework.
@@ -50,6 +52,9 @@ export default function About() {
                         </Typography>
                         <Box height={20} />
                     </Paper>
+                    
+                    <Divider sx={{ my: 4 }} />
+
                     <Typography fontSize={30} variant="body1" align='center'>
                         Our Contact Info
 
@@ -98,7 +103,8 @@ export default function About() {
                         <Grid item>
                             <Button
                                 size="large"
-                                href="https://github.com/example"
+                                target='_blank'
+                                href="https://github.com/Dabbin-Giraffe/Bandwidth-site"
                                 variant="outlined"
                                 sx={{
                                     borderColor: 'black',

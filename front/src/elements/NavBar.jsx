@@ -49,7 +49,7 @@ export default function NavBar({ pageName }) {
               </Typography>
             </Grid>
             <Grid item>
-              <CloudIcon />
+              <CloudIcon sx={{marginTop:'30'}} />
             </Grid>
             <Grid item>
               
