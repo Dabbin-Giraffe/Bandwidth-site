@@ -65,6 +65,7 @@ export default function About() {
                         {members.map((member, index) => (
                             <Grid item key={index}>
                                 <Button
+                                target='_blank'
                                     size='large'
                                     href={`mailto:${member.email}`}
                                     variant="outlined"

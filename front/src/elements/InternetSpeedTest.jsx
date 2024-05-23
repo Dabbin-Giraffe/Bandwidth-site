@@ -129,28 +129,38 @@ const InternetSpeedTest = ({ onTestComplete }) => {
     onClick={handleStartTest}
     disabled={isRunning}
     sx={{
-      width: 150, // Adjust for desired size
-      height: 150,
-      borderRadius: '50%', // Make it circular
+      width: 200, 
+      height: 200,
+      borderRadius: '50%',
       mb: 2,
       color: '#FFF',
       backgroundColor: '#333',
       fontSize: '1.5rem',
-      padding: 0, // Remove default padding
-      display: 'flex', // Use flexbox to center the text
-      justifyContent: 'center', // Center text horizontally
-      alignItems: 'center', // Center text vertically
-      '&:hover': { // Optional: Hover effect
+      padding: 0, 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center', 
+      '&:hover': { 
         backgroundColor: '#555',
+      
       },
     }}
   >
-    {isRunning ? '' : 'Go!'} {/* Hide text when loading */}
+    <div>
+
+     {isRunning ? '' : 
+    <Typography sx={{
+      fontSize:'2.5rem',
+      // lineHeight: 2, 
+      
+    }}>Go!</Typography>
+  } 
+  </div>
   </Button>
 
   {isRunning && (
     <CircularProgress
-      size={50} // Adjust size for visibility
+      size={50} 
       sx={{
         marginTop:-2,
         position: 'absolute',
